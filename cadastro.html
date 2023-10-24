@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulariodecadastro</title>
+</head>
+<body>
+    <div class="">
+        <form action="box">
+            <fieldset>
+                <legend><b>Dados do usuário</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" placeholder="Nome Completo" autofocus>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="email" placeholder="Email" autofocus>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="telefone" placeholder="Telefone" autofocus>
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="femenino" name="genero" value="femenino" required>
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino" >Masculino</label>
+                <br><br>
+            <div class="inputBox">
+                <label for="data_nascimento"><b></b></label>
+                <input type="date" name="data_nascimento" id="data_nascimento" class="imputuser" required>
+            </div>
+            <br><br>
+            <div class="inputBox">
+                <input type="text" name="cidade" placeholder="Cidade" autofocus>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="estado" placeholder="Estado" autofocus>
+            </div>
+            <br>
+            <div class="inputBox">
+                <input type="text" name="endereco" placeholder="Endereço" autofocus>
+            </div>
+            <br>
+            <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+
+    </div>
+
+</body>
+</html>
